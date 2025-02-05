@@ -1,0 +1,63 @@
+#CSS code for Personal-bucket-list
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background:linear-gradient( 135deg,#e52f99, rgb(255, 192, 216));
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.bucket-list {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e6e6e6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+li i {
+    margin-right: 10px;
+}
+
+li:hover {
+    background: rgb(203, 16, 147);
+    color: white;
+    transition: 0.3s;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+footer {
+    background:rgb(147, 49, 104);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
